@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sourcey.materiallogindemo.AcceptanceNotify">
+
+    <TextView
+        android:background="#CB673AB7"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="Accept Notification"
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <ListView
+        android:layout_below="@+id/top"
+        android:dividerHeight="3dp"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true"
+        android:divider="@color/black"
+        android:layout_margin="10dp"
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+</RelativeLayout>

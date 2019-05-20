@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/trip"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_centerInParent="true"
+    tools:context="com.sourcey.materiallogindemo.GoingActivity">
+
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_margin="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+
+        <EditText
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:id="@+id/goingfrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Going From"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="98dp"
+            tools:layout_editor_absoluteY="177dp" />
+
+        <EditText
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+
+            android:id="@+id/goingto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/goingfrom"
+            android:ems="10"
+            android:hint="Going To"
+            android:inputType="textPersonName"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="98dp"
+            tools:layout_editor_absoluteY="270dp" />
+
+        <EditText
+            android:contextClickable="true"
+            android:id="@+id/time"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/goingto"
+            android:ems="10"
+            android:hint="Time"
+            android:inputType="datetime"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="97dp"
+            tools:layout_editor_absoluteY="369dp" />
+
+        <EditText
+            android:id="@+id/myroute"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/time"
+            android:ems="10"
+            android:hint="My route"
+            android:inputType="textPersonName"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="96dp"
+            tools:layout_editor_absoluteY="482dp" />
+        <EditText
+            android:id="@+id/phone"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/myroute"
+            android:ems="10"
+            android:hint="My Phone"
+            android:inputType="phone"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="96dp"
+            tools:layout_editor_absoluteY="482dp" />
+
+        <Spinner
+            android:id="@+id/typeofperson"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+
+            android:layout_width="395dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phone"
+            android:spinnerMode="dialog"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="572dp" />
+
+        <Button
+            android:background="@color/primary"
+            android:text="Submit"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_below="@+id/typeofperson"
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+</RelativeLayout>

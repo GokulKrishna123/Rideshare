@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sourcey.materiallogindemo.FriendList">
+
+    <TextView
+        android:textColor="@color/white"
+        android:background="#F44336"
+        android:id="@+id/top"
+        android:gravity="center"
+        android:text="PEOPLE YOU KNOW"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <ListView
+        android:background="#1E3F51B5"
+        android:layout_below="@+id/top"
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+
+    <Button
+        android:background="#03A9F4"
+        android:textColor="@color/white"
+        android:text="My Friends"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/myfriend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

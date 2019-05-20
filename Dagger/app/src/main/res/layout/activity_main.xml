@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <WebView
+        android:id="@+id/webview01"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:foregroundGravity="center"></WebView>
+
+<RelativeLayout
+    android:background="#6FE7E0E0"
+    android:layout_margin="1dp"
+    android:layout_alignParentBottom="true"
+    android:layout_below="@+id/webview01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:background="#536DFE"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:layout_alignParentRight="true"
+        android:text="i am going to"
+        android:id="@+id/amgoing"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:background="#536DFE"
+
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:layout_alignParentLeft="true"
+        android:text="join with friend"
+        android:id="@+id/joinwith"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:background="#536DFE"
+
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="My friend list"
+        android:id="@+id/frndlist"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:background="#536DFE"
+
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="FARE"
+        android:id="@+id/exit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>
+
+
+
+</RelativeLayout>

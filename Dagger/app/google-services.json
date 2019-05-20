@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "70836547987",
+    "firebase_url": "https://gokulcetpro.firebaseio.com",
+    "project_id": "gokulcetpro",
+    "storage_bucket": "gokulcetpro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70836547987:android:a4b0a6895ea3d369",
+        "android_client_info": {
+          "package_name": "com.sourcey.materialloginexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70836547987-h8bd60r1dmav8unk8c2roomgf0269nj4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sourcey.materialloginexample",
+            "certificate_hash": "33b3bec0fd1eb5cdea9176dbda3f9e57c3cda67e"
+          }
+        },
+        {
+          "client_id": "70836547987-n671a6qfnp5580bavrjkfb42t19sb94o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFn0sUXLnp7rtqy-HYCfT1z39DoKJdraY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70836547987-n671a6qfnp5580bavrjkfb42t19sb94o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
